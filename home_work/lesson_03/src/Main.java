@@ -5,8 +5,10 @@ import java.io.File;
 import java.io.FileReader;
 import java.util.*;
 
-public class Main {
-    public static void main(String[] args) throws Exception {
+public class Main 
+{
+    public static void main(String[] args) throws Exception 
+    {
 
 
 //      1. Создать новый список, добавить несколько строк и вывести коллекцию на экран.
@@ -14,6 +16,7 @@ public class Main {
         Random rnd= new Random();
         for (int i = 0; i < 10; i++) {
             ar.add(rnd.nextInt(-10,10));
+
         }
         System.out.println("Task 1.");
         System.out.println(Arrays.toString(ar.toArray()));
