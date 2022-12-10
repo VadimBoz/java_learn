@@ -14,7 +14,7 @@ public class Main {
         System.out.println("\n\n -----------------Task 1. & 2.---------------------");
         Map<Integer, String>  hashMap = new HashMap<>();
         Map<Integer, String> treeMap = new TreeMap<>();
-        hashMap.put(1,"red");
+        
         treeMap.put(1,"-red");
         hashMap.put(2, "green");
         treeMap.put(2, "-green");
